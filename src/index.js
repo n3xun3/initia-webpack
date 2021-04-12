@@ -1,3 +1,7 @@
-import sayHi from './hi.js'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-sayHi()
+ReactDOM.render(
+    <h1>Funcionando OK!!!</h1>,
+    document.getElementById('app')
+)
